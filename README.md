@@ -13,7 +13,7 @@ date: 01.10.2025
 
 - ### Thema: *Suche nach Datasets – Spotify Churn* <!-- <title:topic> -->
 
-- ### Team: ${ \color{navy}\texttt{ j\color{royalblue}{AI}\color{navy}{m} } }$ <!-- <title:team> -->
+- ### Team: ${ \color{skyblue}\texttt{ j\color{royalblue}{AI}\color{skyblue}{m} } }$ <!-- <title:team> -->
   
   - #### **Mitglieder**
   
