@@ -5,7 +5,7 @@ members: Jan Ritt, Imre Obermüller
 date: 01.10.2025
 ---
 
-  <img src="img/logo_jaim.png" alt="logo" style="align: center; width: 400px; height: auto;" />
+  <img src="img/logo_jaim.png" alt="logo" style="text-align: center; width: 400px; height: auto;" />
 
 - ### Thema: *Suche nach Datasets – Spotify Churn* <!-- <title:topic> -->
 
