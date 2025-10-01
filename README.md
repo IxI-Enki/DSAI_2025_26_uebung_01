@@ -1,7 +1,7 @@
 ---
 title: "README – Suche nach Datasets: Spotify Churn"
 team: jAIm
-  members: Jan Ritt, Imre Obermüller
+members: Jan Ritt, Imre Obermüller
 date: 01.10.2025
 ---
 
