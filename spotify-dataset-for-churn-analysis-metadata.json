@@ -1,0 +1,241 @@
+{
+  "@context": {
+    "@language": "en",
+    "@vocab": "https://schema.org/",
+    "citeAs": "cr:citeAs",
+    "column": "cr:column",
+    "conformsTo": "dct:conformsTo",
+    "cr": "http://mlcommons.org/croissant/",
+    "data": { "@id": "cr:data", "@type": "@json" },
+    "dataBiases": "cr:dataBiases",
+    "dataCollection": "cr:dataCollection",
+    "dataType": { "@id": "cr:dataType", "@type": "@vocab" },
+    "dct": "http://purl.org/dc/terms/",
+    "extract": "cr:extract",
+    "field": "cr:field",
+    "fileProperty": "cr:fileProperty",
+    "fileObject": "cr:fileObject",
+    "fileSet": "cr:fileSet",
+    "format": "cr:format",
+    "includes": "cr:includes",
+    "isEnumeration": "cr:isEnumeration",
+    "isLiveDataset": "cr:isLiveDataset",
+    "jsonPath": "cr:jsonPath",
+    "key": "cr:key",
+    "md5": "cr:md5",
+    "parentField": "cr:parentField",
+    "path": "cr:path",
+    "personalSensitiveInformation": "cr:personalSensitiveInformation",
+    "recordSet": "cr:recordSet",
+    "references": "cr:references",
+    "regex": "cr:regex",
+    "repeated": "cr:repeated",
+    "replace": "cr:replace",
+    "sc": "https://schema.org/",
+    "separator": "cr:separator",
+    "source": "cr:source",
+    "subField": "cr:subField",
+    "transform": "cr:transform",
+    "wd": "https://www.wikidata.org/wiki/"
+  },
+  "alternateName": "Synthetically generated dataset for EDA and ML",
+  "conformsTo": "http://mlcommons.org/croissant/1.0",
+  "license": {
+    "@type": "sc:CreativeWork",
+    "name": "Apache 2.0",
+    "url": "https://www.apache.org/licenses/LICENSE-2.0"
+  },
+  "distribution": [
+    {
+      "contentUrl": "https://www.kaggle.com/api/v1/datasets/download/nabihazahid/spotify-dataset-for-churn-analysis",
+      "contentSize": "96.839 KB",
+      "encodingFormat": "application/zip",
+      "@id": "archive.zip",
+      "@type": "cr:FileObject",
+      "name": "archive.zip",
+      "description": "Archive containing all the contents of the Spotify Analysis Dataset 2025 dataset"
+    },
+    {
+      "contentUrl": "spotify_churn_dataset.csv",
+      "containedIn": { "@id": "archive.zip" },
+      "encodingFormat": "text/csv",
+      "@id": "spotify_churn_dataset.csv_fileobject",
+      "@type": "cr:FileObject",
+      "name": "spotify_churn_dataset.csv",
+      "description": "The dataset contains Spotify user information, including demographics, listening behavior, subscription type, and device usage, with the goal of predicting whether a user will churn or remain active."
+    }
+  ],
+  "recordSet": [
+    {
+      "field": [
+        {
+          "dataType": ["sc:Text"],
+          "source": {
+            "fileObject": { "@id": "spotify_churn_dataset.csv_fileobject" },
+            "extract": { "column": "user_id" }
+          },
+          "@id": "spotify_churn_dataset.csv/user_id",
+          "@type": "cr:Field",
+          "name": "user_id",
+          "description": "ID"
+        },
+        {
+          "dataType": ["sc:Text"],
+          "source": {
+            "fileObject": { "@id": "spotify_churn_dataset.csv_fileobject" },
+            "extract": { "column": "gender" }
+          },
+          "@id": "spotify_churn_dataset.csv/gender",
+          "@type": "cr:Field",
+          "name": "gender",
+          "description": ""
+        },
+        {
+          "dataType": ["sc:Integer"],
+          "source": {
+            "fileObject": { "@id": "spotify_churn_dataset.csv_fileobject" },
+            "extract": { "column": "age" }
+          },
+          "@id": "spotify_churn_dataset.csv/age",
+          "@type": "cr:Field",
+          "name": "age",
+          "description": ""
+        },
+        {
+          "dataType": ["sc:Text"],
+          "source": {
+            "fileObject": { "@id": "spotify_churn_dataset.csv_fileobject" },
+            "extract": { "column": "country" }
+          },
+          "@id": "spotify_churn_dataset.csv/country",
+          "@type": "cr:Field",
+          "name": "country",
+          "description": ""
+        },
+        {
+          "dataType": ["sc:Text"],
+          "source": {
+            "fileObject": { "@id": "spotify_churn_dataset.csv_fileobject" },
+            "extract": { "column": "subscription_type" }
+          },
+          "@id": "spotify_churn_dataset.csv/subscription_type",
+          "@type": "cr:Field",
+          "name": "subscription_type",
+          "description": ""
+        },
+        {
+          "dataType": ["sc:Integer"],
+          "source": {
+            "fileObject": { "@id": "spotify_churn_dataset.csv_fileobject" },
+            "extract": { "column": "listening_time" }
+          },
+          "@id": "spotify_churn_dataset.csv/listening_time",
+          "@type": "cr:Field",
+          "name": "listening_time",
+          "description": ""
+        },
+        {
+          "dataType": ["sc:Integer"],
+          "source": {
+            "fileObject": { "@id": "spotify_churn_dataset.csv_fileobject" },
+            "extract": { "column": "songs_played_per_day" }
+          },
+          "@id": "spotify_churn_dataset.csv/songs_played_per_day",
+          "@type": "cr:Field",
+          "name": "songs_played_per_day",
+          "description": ""
+        },
+        {
+          "dataType": ["sc:Float"],
+          "source": {
+            "fileObject": { "@id": "spotify_churn_dataset.csv_fileobject" },
+            "extract": { "column": "skip_rate" }
+          },
+          "@id": "spotify_churn_dataset.csv/skip_rate",
+          "@type": "cr:Field",
+          "name": "skip_rate",
+          "description": ""
+        },
+        {
+          "dataType": ["sc:Text"],
+          "source": {
+            "fileObject": { "@id": "spotify_churn_dataset.csv_fileobject" },
+            "extract": { "column": "device_type" }
+          },
+          "@id": "spotify_churn_dataset.csv/device_type",
+          "@type": "cr:Field",
+          "name": "device_type",
+          "description": ""
+        },
+        {
+          "dataType": ["sc:Integer"],
+          "source": {
+            "fileObject": { "@id": "spotify_churn_dataset.csv_fileobject" },
+            "extract": { "column": "ads_listened_per_week" }
+          },
+          "@id": "spotify_churn_dataset.csv/ads_listened_per_week",
+          "@type": "cr:Field",
+          "name": "ads_listened_per_week",
+          "description": ""
+        },
+        {
+          "dataType": ["sc:Integer"],
+          "source": {
+            "fileObject": { "@id": "spotify_churn_dataset.csv_fileobject" },
+            "extract": { "column": "offline_listening" }
+          },
+          "@id": "spotify_churn_dataset.csv/offline_listening",
+          "@type": "cr:Field",
+          "name": "offline_listening"
+        },
+        {
+          "dataType": ["sc:Integer"],
+          "source": {
+            "fileObject": { "@id": "spotify_churn_dataset.csv_fileobject" },
+            "extract": { "column": "is_churned" }
+          },
+          "@id": "spotify_churn_dataset.csv/is_churned",
+          "@type": "cr:Field",
+          "name": "is_churned"
+        }
+      ],
+      "@id": "spotify_churn_dataset.csv",
+      "@type": "cr:RecordSet",
+      "name": "spotify_churn_dataset.csv",
+      "description": "The dataset contains Spotify user information, including demographics, listening behavior, subscription type, and device usage, with the goal of predicting whether a user will churn or remain active."
+    }
+  ],
+  "keywords": [
+    "technique \u003E exploratory data analysis",
+    "technique \u003E data visualization",
+    "data type \u003E tabular",
+    "task \u003E logistic regression",
+    "task \u003E classification"
+  ],
+  "isAccessibleForFree": true,
+  "isLiveDataset": true,
+  "includedInDataCatalog": {
+    "@type": "sc:DataCatalog",
+    "name": "Kaggle",
+    "url": "https://www.kaggle.com"
+  },
+  "creator": {
+    "@type": "sc:Person",
+    "name": "nabiha zahid",
+    "url": "/nabihazahid",
+    "image": "https://storage.googleapis.com/kaggle-avatars/thumbnails/27895442-kg.jpg?t=2025-09-07-00-40-53"
+  },
+  "publisher": {
+    "@type": "sc:Organization",
+    "name": "Kaggle",
+    "url": "https://www.kaggle.com/organizations/kaggle",
+    "image": "https://storage.googleapis.com/kaggle-organizations/4/thumbnail.png"
+  },
+  "thumbnailUrl": "https://storage.googleapis.com/kaggle-datasets-images/8162411/12900544/2e47f3f3c91b82ccf6af6b3fa53287ca/dataset-card.jpg?t=2025-08-29-01-17-08",
+  "dateModified": "2025-08-28T23:44:35.173",
+  "datePublished": "2025-08-29T01:14:34.2805233",
+  "@type": "sc:Dataset",
+  "name": "Spotify Analysis Dataset 2025",
+  "url": "https://www.kaggle.com/datasets/nabihazahid/spotify-dataset-for-churn-analysis",
+  "description": "Rows: Each row represents a unique Spotify user.\n\nColumns (Features):\n\nuser_id \u2192 Unique identifier for each user\n\ngender \u2192 User gender (Male/Female/Other)\n\nage \u2192 User age\n\ncountry \u2192 User location\n\nsubscription_type \u2192 Type of Spotify subscription (Free, Premium, Family, Student)\n\nlistening_time \u2192 Minutes spent listening per day\n\nsongs_played_per_day \u2192 Number of songs played daily\n\nskip_rate \u2192 Percentage of songs skipped\n\ndevice_type \u2192 Device used (Mobile, Desktop, Web)\n\nads_listened_per_week \u2192 Number of ads heard per week\n\noffline_listening \u2192 Offline mode usage\n\nis_churned \u2192 Target variable (0 = Active, 1 = Churned)\n\nDataset Type: Mixed (numeric \u002B categorical)\n\nUse Case: Build machine learning models to predict user churn, analyze engagement patterns, and help Spotify reduce cancellations."
+}
