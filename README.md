@@ -5,7 +5,7 @@ members: Jan Ritt, Imre Obermüller
 date: 01.10.2025
 ---
 
-<div align="center">
+<div align="center" width="400px">
 
   ![logo](img/logo_jaim.png)
 
