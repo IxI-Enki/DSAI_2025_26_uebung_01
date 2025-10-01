@@ -22,6 +22,12 @@ date: 01.10.2025
 
 - ### **Datum des Arbeitsauftrags**: 01.10.2025 <!-- <title:date> -->
 
+- ### **Ausgearbeitete Dokumente**
+
+  - [Präsentation](spotify_presentation.pdf)
+
+  - [Bericht](spotify_report.pdf)
+
 ---
 
 ***Inhaltsverzeichnis*** <!-- <section:toc> -->
