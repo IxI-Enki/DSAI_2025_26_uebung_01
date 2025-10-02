@@ -96,11 +96,11 @@ $${ \color{gray}{ ( }~ \color{orange}{ 20 } ~ \color{white}{ Pkt. }~ \color{gray
   
   - [x] [Fertige Präsentation](../spotify_presentation.pdf)
 
-- [ ] [**Bericht**](<temporary: ../spotify_report.md>) (pdf):
+- [x] [**Bericht**](<temporary: ../spotify_report.md>) (pdf):
 
-  - [ ] [Bericht Preperation File](report_preparation.md) (md)
+  - [x] [Bericht Preperation File](report_preparation.md) (md)
   
-  - [ ] [Fertiger Bericht](../spotify_report.pdf)
+  - [x] [Fertiger Bericht](../spotify_report.pdf)
 
 ---
 
@@ -110,8 +110,8 @@ $${ \color{gray}{ ( }~ \color{orange}{ 20 } ~ \color{white}{ Pkt. }~ \color{gray
 
 - ### 3.2. *Abzugebende Dateien:*
 
-  - [ ] Eine PDF-Datei mit allen Inhalten der Präsentation und Bericht <!-- <files> -->
+  - [x] Eine PDF-Datei mit allen Inhalten der Präsentation und Bericht <!-- <files> -->
 
     - [x] [Präsentation](../spotify_presentation.pdf) (pdf) <!-- <presentation> -->
 
-    - [ ] [Bericht](../spotify_report.pdf) (pdf) <!-- <report> -->
+    - [x] [Bericht](../spotify_report.pdf) (pdf) <!-- <report> -->
